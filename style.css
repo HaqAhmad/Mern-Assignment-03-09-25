@@ -43,6 +43,13 @@
     transition: color 0.3s ease;
 }
 
+.navbar .nav_menu .nav_item_link{
+    cursor: pointer;
+    transition: color 0.3s ease;
+    color: #E8F2F8;
+    text-decoration: none;
+}
+
 .navbar .nav_menu .nav_item:hover {
   color: #ffcb00;
 }
@@ -234,7 +241,7 @@
 .section4_container{
  display: flex;
   justify-content: space-around;
-  margin-left: 100px;
+  margin-left: 150px;
 }
 
 .section4_content{
@@ -510,4 +517,73 @@ SECTION 8 STARTS HERE
   font-family: "Montserrat", "Sans-Serif";
   font-weight: 600;
   cursor: pointer;
+}
+
+
+/* 
+ABOUT US PAGE STARTS HERE
+##########################################
+
+
+########################################## */
+
+
+.hero_section_aboutus{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50vh;
+    background-color: #0D6CAC;
+    background-image: url("./Assets/bg.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}   
+
+.hero_section_aboutus .content .text_aboutus{
+  text-align: center;
+  font-size: 56px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  color: #E8F2F8;
+  text-transform: uppercase;
+}
+
+/* <!-- SECTION 4 STARTS HERE
+############################################# -->
+ */
+
+
+
+.p1{
+  color: #E8F2F8;
+  font-size: 34px;
+  font-family: "Montserrat", "Sans-Serif";
+  font-weight: 900;
+}
+
+.p2{
+  width: 650px;
+  margin-top: 27px;
+  color: #E8F2F8;
+  font-size: 16px;
+  font-family: "Montserrat", "Sans-Serif";
+  font-weight: 400;
+  line-height: 27px;
+  text-align: justify;
+}
+
+
+.section_4_facilities{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.section4_text{
+  padding-bottom: 20px;
 }
