@@ -33,7 +33,7 @@
     color: #E8F2F8;
     font-weight: 500;
     font-size: 21px;
-    gap: 29px;
+    gap: 35px;
     font-family: "Montserrat", sans-serif;
     margin-left: 60px;
 }
@@ -61,7 +61,7 @@
 
 .nav_icons{
     display: flex;
-    gap: 20px;
+    gap: 10px;
     margin-right: 10px;
     cursor: pointer;
 }
@@ -99,6 +99,7 @@
 }   
 
 .hero_section .content {
+  max-width: 2560px;
   display: flex;
   flex-direction: column;
   gap: 50px;
@@ -160,6 +161,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: space-around;
   color: #0d6cac;
 }
 .section_3 .section3_container .prayer_timings img {
@@ -235,13 +237,13 @@
   display: flex;
   background-color: #0D6CAC;
   padding: 70px 30px;
-  gap: 400px;
+  justify-content: space-around
 }
 
 .section4_container{
  display: flex;
   justify-content: space-around;
-  margin-left: 150px;
+
 }
 
 .section4_content{
@@ -517,6 +519,13 @@ SECTION 8 STARTS HERE
   font-family: "Montserrat", "Sans-Serif";
   font-weight: 600;
   cursor: pointer;
+}
+
+.footer_2 .footer_link{
+    cursor: pointer;
+    transition: color 0.3s ease;
+    color: #0D6CAC;
+    text-decoration: none;
 }
 
 
